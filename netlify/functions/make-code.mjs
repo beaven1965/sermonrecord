@@ -6,7 +6,7 @@
 //   { password, action: 'make', days, note } -> { code, expiresAt }
 //   { password, action: 'list' }             -> { codes: [...] }   (last 50 made)
 // The code works exactly like a paid code: expiry built in, family codes allowed.
-// Also used by the 'Code Maker' file on Beaven's laptop (one file for all his apps).
+// Also used by the owner's 'Code Maker' file (one file for all the apps).
 
 import crypto from 'node:crypto';
 import { getStore } from '@netlify/blobs';
